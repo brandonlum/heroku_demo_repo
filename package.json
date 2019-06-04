@@ -1,0 +1,29 @@
+{
+  "name": "heroku_demo_repo",
+  "version": "1.0.0",
+  "engines": {
+    "node": "11.11.0"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonlum/heroku_demo_repo.git"
+  },
+  "author": "Brandon Lum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonlum/heroku_demo_repo/issues"
+  },
+  "homepage": "https://github.com/brandonlum/heroku_demo_repo#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.12"
+  }
+}
